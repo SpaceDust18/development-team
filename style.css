@@ -1,3 +1,23 @@
 html {
-    background-color: #162cf516;
+  background-color: steelblue;
+  opacity: 90%;
 }
+h3 {
+    color: black;
+}
+nav {
+    align-items: center;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+}  
+links {
+display: block;
+} 
+    
+
+   
+    
+    
+
+   
