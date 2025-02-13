@@ -1,23 +1,67 @@
 html {
   background-color: steelblue;
-  opacity: 90%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
 h3 {
-    color: black;
+  color: black;
+  font-size: 20px;
 }
+
 nav {
-    align-items: center;
-    background-color: aqua;
-    padding: 10px;
-    display: flex;
-}  
-links {
-display: block;
-} 
-    
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+}
 
-   
-    
-    
+img {
+  border: 50px;
+  border: solid;
+  padding-block: 30px;
+  padding-inline: 30px;
+  background-color: white;
+  vertical-align: middle;
+  float: inline-end;
+  margin-right: 80px;
+}
 
-   
+a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#about {
+  background-color: aqua;
+  width: 800px;
+  font-size: 30px;
+  padding-inline: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-left: 80px;
+  float: inline-start;
+}
+
+#display {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+#quote {
+  
+  width: 800px;
+  font-size: 30px;
+  padding-inline: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-inline: 100px;
+ display: block;
+
+}
