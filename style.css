@@ -2,7 +2,7 @@ html {
   background-color: steelblue;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/*h1, h3, nav. General, all pages unless individually determined otherwise*/
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
@@ -20,8 +20,9 @@ nav {
   display: flex;
   justify-content: space-between;
   text-decoration: underline;
+  
 }
-
+/*image for home section*/
 img {
   border: 50px;
   border: solid;
@@ -32,7 +33,7 @@ img {
   float: inline-end;
   margin-right: 80px;
 }
-
+/*a. General, all pages unless individually determined otherwise*/
 a {
   font-size: 20px;
   font-weight: bold;
@@ -48,7 +49,7 @@ a {
   margin-left: 80px;
   float: inline-start;
 }
-
+/*home*/
 #display {
   display:inline-block;
   vertical-align: middle;
@@ -63,5 +64,35 @@ a {
   padding-top: 30px;
   background-color: white;
 
+}
+/*contact*/
+.inlineBlock {
+position: relative;
+  border: solid black 20px;
+  text-align: center;
+  font-size: 30px;
+ 
+
+}
+
+#center {
+  text-align: center;
+  border: solid black 20px;
+  background-color: white;
+}
+.main {
+
+
+  /*padding: 80px ;*/
+  color: blue;
+  background-color: lightcoral;
+ 
+}
+
+
+
+div {
+  width: 900px;
+  
 }
 
