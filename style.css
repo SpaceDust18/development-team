@@ -55,13 +55,13 @@ a {
 }
 
 #quote {
-  
+  margin-inline: 80px;
   width: 800px;
   font-size: 30px;
   padding-inline: 30px;
   padding-bottom: 30px;
   padding-top: 30px;
-  margin-inline: 100px;
   background-color: white;
 
 }
+
