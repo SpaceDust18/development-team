@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <script src="Javascript.js"></script>
 </head>
+
 <section style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
     <nav>
         <div>
-            <h3>Claudia M. Bolivar</h3>
+            <h3 class="author">Claudia M. Bolivar</h3>
         </div>
-        <div>
+        <div class="links">
             <a href="./index.html">Home</a>
             <a href="./about.html">About</a>
             <a href="./portfolio.html">Portfolio</a>
@@ -21,56 +22,39 @@
         </div>
     </nav>
 </section>
-</head>
-<section id="center">
-    <header>
-        <h1>Contact Me:</h1>
-    </header>
-</section>
 
-<div class="inlineBlock">
+<section>
+    <div class="contact" id="hoverPurple">
 
-    <body>
-
-
-        <section>
+        <body>
+            <h1>Contact Me:</h1>
             <form action="./success.html" class="main">
                 <div>
-                    Name:
-                    <label for="nameField">
-                        <input type="text" name="contact" id="nameField">
-                    </label>
-                </div>
-                <br>
-                <div>
-                    Email:
-                    <label for="emailField">
-                        <input type="text" name="contact" id="emailField">
-                    </label>
-                </div>
-                <br>
-                <div>
-                    Message:
-                    <label for="messageField">
-                        <input type="text" name="contact" id="messageField">
-                    </label>
-                </div>
-                <br>
-                <div>
-                    <label for="submitButton">
-                        <input type="submit" name="contact" id="submitButton">
-                    </label>
+                    <label for="nameField">Name:</label>
+                    <br>
+                    <input type="text" name="contact" id="nameField">
                 </div>
 
+                <div>
+                    <label for="emailField">Email:</label>
+                    <br>
+                    <input type="text" name="contact" id="emailField">
+                </div>
+
+                <div>
+                    <label for="messageField">Message:</label>
+                    <br>
+                    <textarea type="text" name="contact" id="messageField"></textarea>
+                </div>
+
+                <div>
+                    <label for="submitButton"></label>
+                    <input type="submit" name="contact" id="submitButton">
+                </div>
             </form>
-        </section>
-
-    </body>
-</div>
-
-
-
-
+        </body>
+    </div>
+</section>
 
 
 </html>

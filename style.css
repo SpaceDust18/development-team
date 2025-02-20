@@ -2,27 +2,26 @@ html {
   background-color: steelblue;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/*h1, h3, nav. General, all pages unless individually determined otherwise*/
+
+/*navigation header*/
+nav {
+  background-color: rgba(151, 173, 193, 0.585);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  box-shadow: 10px 10px 10px 0px;
+  position: sticky;
+  box-sizing: border-box;
+}
+
+/*h1 for all pages unless individually determined*/
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
 }
 
-h3 {
-  color: black;
-  font-size: 20px;
-}
-
-nav {
-  align-items: center;
-  background-color: aqua;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: underline;
-  
-}
-/*image for home section*/
+/*image for home/index section*/
 img {
   border: 50px;
   border: solid;
@@ -32,11 +31,8 @@ img {
   vertical-align: middle;
   float: inline-end;
   margin-right: 80px;
-}
-/*a. General, all pages unless individually determined otherwise*/
-a {
-  font-size: 20px;
-  font-weight: bold;
+  border-radius: 100%;
+
 }
 
 #about {
@@ -49,9 +45,10 @@ a {
   margin-left: 80px;
   float: inline-start;
 }
-/*home*/
+
+/*home section*/
 #display {
-  display:inline-block;
+  display: inline-block;
   vertical-align: middle;
 }
 
@@ -63,36 +60,43 @@ a {
   padding-bottom: 30px;
   padding-top: 30px;
   background-color: white;
-
 }
-/*contact*/
-.inlineBlock {
-position: relative;
-  border: solid black 20px;
-  text-align: center;
+
+/*contact section*/
+.contact {
+  padding: 85px 24px 100%;
   font-size: 30px;
- 
-
+  color: white;
+  margin-inline: 30%;
+  box-shadow: 10px 0 50px 30px white;
 }
 
-#center {
-  text-align: center;
-  border: solid black 20px;
+#hoverPurple:hover {
+  background-color: hsla(240, 62%, 66%, 0.325);
+}
+
+form {
+  padding-inline: 10%;
+}
+
+textarea {
+  width: 80%;
+  inline-size: 100%;
+  line-height: 50px;
+}
+
+input {
+  width: stretch;
+  inline-size: 100%;
+  line-height: 20px;
+}
+
+#submitButton {
+  width: 20%;
   background-color: white;
-}
-.main {
-
-
-  /*padding: 80px ;*/
-  color: blue;
-  background-color: lightcoral;
- 
+  box-shadow: 10px 10px 10px 0px;
 }
 
-
-
-div {
-  width: 900px;
-  
+a:nth-child(1) {
+  color: white;
 }
-
