@@ -82,7 +82,7 @@ form {
 textarea {
   width: 80%;
   inline-size: 100%;
-  line-height: 50px;
+  line-height: 30px;
 }
 
 input {
@@ -97,6 +97,18 @@ input {
   box-shadow: 10px 10px 10px 0px;
 }
 
+/*HOME link*/
 a:nth-child(1) {
   color: white;
+}
+
+/*success page*/
+#home {
+  width: 10%;
+  background-color: white;
+  justify-items: center;
+}
+
+#textSize {
+  font-size: 30px;
 }
